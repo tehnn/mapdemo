@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="lib/leaflet.css" rel="stylesheet"/>
+    <script src="lib/leaflet.js"></script>
+</head>
+<body>
+<div id="map" style="width: 650px;height: 500px"></div>
+
+<script>
+
+    var map = L.map('map', {}).setView([16, 100], 8);
+    map.locate({setView: true});
+
+    var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+    var baseLayer2 = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+
+    //baseLayer.addTo(map);
+
+    L.control.layers({
+        'OSM': baseLayer.addTo(map),
+        'mq': baseLayer2
+    }, {}).addTo(map);
+
+    var circleMarker = L.circleMarker([16, 100], {
+        color: 'black',
+        width: 9,
+        fillColor: 'green'
+    });
+
+    circleMarker.on('mouseover', function (e) {
+        this.setStyle({
+            color: 'black',
+            width: 9,
+            fillColor: 'yellow'
+        });
+    });
+    circleMarker.on('mouseout', function (e) {
+        this.setStyle({
+            color: 'black',
+            width: 9,
+            fillColor: 'green'
+        });
+
+    })
+    circleMarker.addTo(map);
+
+    var pinMarker = L.marker([16.333, 100]);
+
+    var customIconOption = function (param) {
+        if (param === 1) {
+            icon = {
+                iconUrl: 'http://3.bp.blogspot.com/-tj3Qp2NnsEo/VYmdLhLQSuI/AAAAAAAAASE/bh4huaK4rj8/s1600/Home.png',
+                iconSize: [32, 32]
+            }
+        } else {
+            icon = {
+                iconUrl: 'http://3.bp.blogspot.com/-tj3Qp2NnsEo/VYmdLhLQSuI/AAAAAAAAASE/bh4huaK4rj8/s1600/Home.png',
+                iconSize: [64, 64]
+            }
+        }
+
+        return icon;
+
+    };
+
+    var customIcon = L.icon(customIconOption(6));
+    pinMarker.setIcon(customIcon);
+    pinMarker.options.title = "บ้านเลขที่ 25/1"
+    pinMarker.addTo(map);
+
+
+</script>
+
+</body>
+</html>
