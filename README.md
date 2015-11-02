@@ -1,4 +1,4 @@
-<h3>sourcecode ประกอบวิดิโอ basic web mapping ด้วย leafletjs library</h3>
+<h3>sourcecode ประกอบวิดิโอ basic web mapping ด้วย leaflet</h3>
 <hr>
 - (map1-basemap.html)ตอนที่-1-พื้นฐานการสร้าง map object และ แผนที่พื้นฐาน (basemap)
 <a href='https://www.youtube.com/watch?v=Gudy2awDRHU' target='_blank'>วิดิโอ-1</a>
