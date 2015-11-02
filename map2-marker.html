@@ -11,8 +11,8 @@
 
 <script>
 
-    var map = L.map('map', {}).setView([16, 100], 8);
-    map.locate({setView: true});
+    var map = L.map('map').setView([16, 100], 10);
+    //map.locate({setView: true});
 
     var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
     var baseLayer2 = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
