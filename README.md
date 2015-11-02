@@ -4,8 +4,8 @@
 <a href='https://www.youtube.com/watch?v=Gudy2awDRHU' target='_blank'>วิดิโอ-1</a>
 - (map2-marker.html)ตอนที่-2-การซ้อน(ovelay)ชั้นข้อมูลแบบ Marker
 <a href='#' target='_blank'>วิดิโอ-2</a>
-- (map3-line-polygon.html)ตอนที่-3-การซ้อน(overley)ชั้นข้อมูลแบบ line,circle,polygon
-<a href='#' target='_blank'>วิดิโอ-3</a>
+- <font color=ccc>(map3-line-polygon.html)ตอนที่-3-การซ้อน(overley)ชั้นข้อมูลแบบ line,circle,polygon
+<a href='#' target='_blank'>วิดิโอ-3</a></font>
 
 <br>
 <br>
