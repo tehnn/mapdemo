@@ -3,7 +3,7 @@
 - (map1-basemap.html)ตอนที่-1-พื้นฐานการสร้าง map object และ แผนที่พื้นฐาน (basemap)
 <a href='https://www.youtube.com/watch?v=Gudy2awDRHU' target='_blank'>วิดิโอ-1</a>
 - (map2-marker.html)ตอนที่-2-การซ้อน(overlay)ชั้นข้อมูลแบบ Marker
-<a href='https://youtu.be/kupo3lw7-5E' target='_blank'>วิดิโอ-2</a>
+<a href='https://www.youtube.com/watch?v=wVIbPucqdgc' target='_blank'>วิดิโอ-2</a>
 
 
 <br>
