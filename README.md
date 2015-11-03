@@ -4,6 +4,8 @@
 <a href='https://www.youtube.com/watch?v=Gudy2awDRHU' target='_blank'>วิดิโอ-1</a>
 - (map2-marker.html)ตอนที่-2-การซ้อน(overlay)ชั้นข้อมูลแบบ Marker
 <a href='https://www.youtube.com/watch?v=wVIbPucqdgc' target='_blank'>วิดิโอ-2</a>
+- (map3-marker-icon.html)ตอนที่-3-Marker แบบ custom icon
+<a href='https://youtu.be/AkClS4VUM78' target='_blank'>วิดิโอ-2</a>
 
 
 <br>
