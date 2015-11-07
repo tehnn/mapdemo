@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="lib/leaflet.css" rel="stylesheet"/>
+    <script src="lib/leaflet.js"></script>
+</head>
+<body>
+
+<div id="map" style="width: 650px;height: 500px"></div>
+
+<script>
+
+    var map = L.map('map').setView([16,100],8);
+
+    var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+    baseLayer.addTo(map);
+
+    var mIcon = L.icon({
+        iconUrl:'img/home.png',
+        iconSize:[32,32]
+    });
+
+    var marker1 = L.marker([16,100],{
+        icon:mIcon
+    }).bindPopup('Marker-1');
+    marker1.addTo(map);
+
+    L.marker([16.5,99.5]).bindPopup('Marker2').addTo(map);
+
+    var pointA = [15,99];
+    var pointC = [16.44,100];
+    var pointB = [16.5,99.8];
+    L.polyline([pointA,pointC,pointB],{
+        color:'red'
+    }).addTo(map);
+
+    L.circle([16,100],100000,{
+        color:'lime'
+    }).addTo(map);
+
+   var bounds =[[16,100],[15,99]];
+    L.rectangle(bounds).addTo(map);
+
+    L.polygon([pointA,pointB,pointC],{
+        color :'skyblue'
+    }).addTo(map);
+
+
+
+</script>
+
+</body>
+</html>
