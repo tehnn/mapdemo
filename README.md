@@ -6,6 +6,8 @@
 <a href='https://www.youtube.com/watch?v=wVIbPucqdgc' target='_blank'>วิดิโอ-2</a>
 - (map3-marker-icon.html)ตอนที่-3-Marker แบบ custom icon
 <a href='https://youtu.be/AkClS4VUM78' target='_blank'>วิดิโอ-3</a>
+- (map4-point-line-polygon.html)ตอนที่-4-Point-Line-Polygon
+<a href='https://www.youtube.com/watch?v=TCPb0xrX3Ro' target='_blank'>วิดิโอ-4</a>
 
 
 <br>
