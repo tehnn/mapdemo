@@ -8,6 +8,9 @@
 <a href='https://youtu.be/AkClS4VUM78' target='_blank'>วิดิโอ-3</a>
 - (map4-point-line-polygon.html)ตอนที่-4-Point-Line-Polygon
 <a href='https://www.youtube.com/watch?v=TCPb0xrX3Ro' target='_blank'>วิดิโอ-4</a>
+- (ไม่มี sourcecode)ตอนที่-5-QGIS
+<a href='https://www.youtube.com/watch?v=RkHGbJ3LfKk' target='_blank'>วิดิโอ-5</a>
+
 
 
 <br>
