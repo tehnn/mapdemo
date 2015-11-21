@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "house_id": "1111111", "house_no": "1 ม.1", "cid_owner": "111111111" }, "geometry": { "type": "Point", "coordinates": [ 100.15121356993247, 16.812783161779027 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "2 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15017739412444, 16.812927835382418 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "3 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.1521480832084, 16.812736240610363 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "4 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.14968863195084, 16.813064688791023 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "5 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15097114389437, 16.812939565674583 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "6 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15077172892754, 16.812986486843247 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "7 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15129568197763, 16.812955206064139 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "8 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15135824353585, 16.813170261420524 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "9. ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15014220324794, 16.812493814572257 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "17 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.14992714789155, 16.812544645838312 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "11 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.15004445081321, 16.812368691455816 ] } },
+{ "type": "Feature", "properties": { "id": null, "house_id": null, "house_no": "12 ม.1", "cid_owner": null }, "geometry": { "type": "Point", "coordinates": [ 100.14991932769678, 16.812325680384539 ] } }
+]
+}
