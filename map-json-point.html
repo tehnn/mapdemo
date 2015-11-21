@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="lib/leaflet.css" rel="stylesheet"/>
+    <script src="lib/leaflet.js"></script>
+</head>
+<body>
+<div id="map" style="width: 650px;height: 500px"></div>
+
+<script>
+
+    var map = L.map('map', {
+        center: new L.latLng(16, 100),
+        zoom: 8
+    });
+
+    var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+    baseLayer.addTo(map);
+
+
+</script>
+
+</body>
+</html>
