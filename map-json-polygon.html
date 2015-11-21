@@ -25,9 +25,13 @@
     $.getJSON('data/village.json', function (data) {
 
         village_layer = L.geoJson(data, {
-
+            style:style,
             onEachFeature: function (feature, layer) {
-
+                layer.on({
+                    mouseover: highlightFeature,
+                    mouseout: resetHighlight,
+                    click: zoomToFeature
+                });
             }
 
         }).addTo(map);
