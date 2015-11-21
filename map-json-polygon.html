@@ -21,18 +21,12 @@
     var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
     baseLayer.addTo(map);
 
-    var mIcon = L.icon({ //เพิ่มเข้ามา
-        iconUrl:'img/home.png',
-        iconSize:[32,32]
-    });
-
-    $.getJSON('data/house.json',function(data){
+    $.getJSON('data/village.json',function(data){
 
        var house_layer=L.geoJson(data,{
-
            onEachFeature:function(feature,layer){
-               layer.setIcon(mIcon); // เพิ่มเข้ามา
-               layer.bindPopup(feature.properties.house_no);
+
+
            }
 
        }).addTo(map);
