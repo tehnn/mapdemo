@@ -5,6 +5,8 @@
     <title></title>
     <link href="lib/leaflet.css" rel="stylesheet"/>
     <script src="lib/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 <body>
 <div id="map" style="width: 650px;height: 500px"></div>
@@ -18,6 +20,26 @@
 
     var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
     baseLayer.addTo(map);
+
+    $.getJSON('data/house.json',function(data){
+
+       var house_layer=L.geoJson(data,{
+           onEachFeature:function(feature,layer){
+               
+               layer.bindPopup(feature.properties.house_no);
+           }
+
+       }).addTo(map);
+
+        map.fitBounds(house_layer.getBounds());
+
+
+    });
+
+
+
+
+
 
 
 </script>
