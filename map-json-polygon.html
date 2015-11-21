@@ -25,7 +25,7 @@
     $.getJSON('data/village.json', function (data) {
 
         village_layer = L.geoJson(data, {
-            style:style,
+            style: style,
             onEachFeature: function (feature, layer) {
                 layer.on({
                     mouseover: highlightFeature,
@@ -39,6 +39,7 @@
         map.fitBounds(village_layer.getBounds());
 
     });
+
 
     function getColor(code) {
         switch (code) {

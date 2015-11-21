@@ -12,6 +12,10 @@
 <a href='https://www.youtube.com/watch?v=RkHGbJ3LfKk' target='_blank'>วิดิโอ-5</a>
 - (map-json-point.html)ตอนที่-6- ชั้นข้อมูล geojson
 <a href='https://www.youtube.com/watch?v=cziuvyiK19o' target='_blank'>วิดิโอ-6</a>
+- (map-json-polygon.html)ตอนที่-7- ชั้นข้อมูล geojson แบบ polygon
+<a href='https://www.youtube.com/watch?v=HP0caFoEV1M' target='_blank'>วิดิโอ-7</a>
+
+
 
 
 
