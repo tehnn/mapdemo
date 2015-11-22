@@ -20,7 +20,7 @@
 - ตอนที่-10-Geolocation พิกัดอัตโนมัติ
 <p><hr>
 - สื่อการสอน การพัฒนา Web Map Application ด้วย leaflet ขั้น Advance (สั่งซื้อ)
-- สื่อการสอน การพัฒนา Mobile Map Application ด้วย AngularJS และ Ionic Framework(สั่งซื้อ)
+- สื่อการสอน การพัฒนา Mobile Map Application ด้วย AngularJS, Ionic Framework(สั่งซื้อ)
 
 
 
