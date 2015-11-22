@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="lib/leaflet.css" rel="stylesheet"/>
+    <script src="lib/leaflet.js"></script>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="leaflet-locatecontrol/L.Control.Locate.css" rel="stylesheet"/>
+    <script src="leaflet-locatecontrol/L.Control.Locate.min.js"></script>
+</head>
+<body>
+<div id="map" style="width: 650px;height: 500px"></div>
+
+<script>
+
+    var map = L.map('map').setView([16,100],8);
+
+    var baseLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png');
+    baseLayer.addTo(map);
+
+    var lc=L.control.locate().addTo(map);
+    lc.start();
+
+
+
+</script>
+
+</body>
+</html>
