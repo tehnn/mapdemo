@@ -123,11 +123,11 @@
 
     // legend
 
-    var legend = L.control({position: 'bottomright'});
+    var legend = L.control({position: 'bottomleft'});
 
     legend.onAdd = function (map) {
         var div = L.DomUtil.create('div', 'info legend');
-        var labels = [];
+        var labels = ['<b>หัวข้อ</b>'];
         labels.push('<i style="background:lime"></i>หมู่บ้านสุขภาพดี');
         labels.push('<i style="background:blue"></i>หมู่บ้านสุขภาพปานกลาง');
         labels.push('<i style="background:red"></i>หมู่บ้านสุขภาพไม่ดี');
