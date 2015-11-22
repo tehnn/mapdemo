@@ -21,7 +21,7 @@
 <p>
 <h3>สั่งซื้อ</h3>
 <hr>
-- สื่อการสอน การพัฒนา Web Map Application ด้วย leaflet ขั้น Advance (เนื้อหา)
+- สื่อการสอน การพัฒนา Web Map Application ด้วย leaflet ขั้น กลาง-สูง (เนื้อหา)
 - สื่อการสอน การพัฒนา Mobile Map Application ด้วย AngularJS, Ionic Framework(เนื้อหา)
 
 
