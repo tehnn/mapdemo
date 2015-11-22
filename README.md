@@ -14,8 +14,8 @@
 <a href='https://www.youtube.com/watch?v=cziuvyiK19o' target='_blank'>วิดิโอ-6</a>
 - ตอนที่-7-(map-json-polygon.html)-ชั้นข้อมูล geojson แบบ polygon
 <a href='https://www.youtube.com/watch?v=HP0caFoEV1M' target='_blank'>วิดิโอ-7</a>
-- ตอนที่-8-Layer Control & Multiple Base Map
-- ตอนที่-9-Legend คำอธิบายสัญลักษณ์ 
+- ตอนที่-8-Legend คำอธิบายสัญลักษณ์ 
+- ตอนที่-9-Layer Control & Multiple Base Map
 - ตอนที่-10-Geolocation พิกัดอัตโนมัติ
 - ตอนที่-11-AngularJS Leaflet Directive
 - ตอนที่-12-สร้าง Mobile Map Application ด้วย ionic framework
