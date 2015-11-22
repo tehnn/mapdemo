@@ -18,7 +18,9 @@
 <a href='https://youtu.be/QuoMjVF1tuQ' target='_blank'>วิดิโอ-8</a>
 - ตอนที่-9-Layer Control & Multiple Base Map
 - ตอนที่-10-Geolocation พิกัดอัตโนมัติ
-<p><hr>
+<p>
+<h3>สั่งซื้อ</h3>
+<hr>
 - สื่อการสอน การพัฒนา Web Map Application ด้วย leaflet ขั้น Advance (สั่งซื้อ)
 - สื่อการสอน การพัฒนา Mobile Map Application ด้วย AngularJS, Ionic Framework(สั่งซื้อ)
 
