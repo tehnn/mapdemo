@@ -18,8 +18,10 @@
 <a href='https://youtu.be/QuoMjVF1tuQ' target='_blank'>วิดิโอ-8</a>
 - ตอนที่-9-Layer Control & Multiple Base Map
 - ตอนที่-10-Geolocation พิกัดอัตโนมัติ
-- ตอนที่-11-AngularJS Leaflet Directive
-- ตอนที่-12-สร้าง Mobile Map Application ด้วย ionic framework
+<p>
+- สื่อการสอน การพัฒนา Web Map Application ด้วย leaflet ขั้น Advance (สั่งซื้อ)
+- สื่อการสอน การพัฒนา Mobile Map Application ด้วย AngularJS และ Ionic Framework(สั่งซื้อ)
+
 
 
 
