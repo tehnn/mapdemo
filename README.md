@@ -16,8 +16,8 @@
 <a href='https://www.youtube.com/watch?v=HP0caFoEV1M' target='_blank'>วิดิโอ-7</a>
 - ตอนที่-8-(map-legend.html)-Legend คำอธิบายสัญลักษณ์ 
 <a href='https://youtu.be/QuoMjVF1tuQ' target='_blank'>วิดิโอ-8</a>
-- ตอนที่-9-Layer Control & Multiple Base Map
-- ตอนที่-10-Geolocation พิกัดอัตโนมัติ
+- ตอนที่-9-(map-control.html)-Layer Control & Multiple Base Map
+- ตอนที่-10-(map-geolocation.html)-Geolocation พิกัดอัตโนมัติ
 <p>
 <h3>สั่งซื้อ</h3>
 <hr>
